@@ -22,7 +22,7 @@
         <ul class="navbar">
             <li><a href="index.html">HEM</a></li>
             <li class="fet-title"><a href="bemanning.html">BEMANNING</a></li>
-            <li class="fet-title"><a href="sök.php">SÖK JOBB</a></li>
+            <li class="fet-title"><a href="profil.html">SKAPA PROFIL</a></li>
             <li><a href="om-oss.html">OM OSS</a></li>
             <li><a href="kontakta-oss.html">KONTAKTA OSS</a></li>
         </ul>
@@ -41,7 +41,7 @@
             <h2>Några frågor?</h2>
             <p>Ställ dem här!</p>
 
-            <form action="https://web3forms.com/api/v1/contact" method="POST" id="contact-form">
+            <form action="https://web3forms.com/api/v1/contact" method="POST" id="contact-form" onsubmit="setTimeout(function() { window.location = 'tack-sms.html'; }, 100);">
                 <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_API_KEY">
 
                 <div class="form-group">
